@@ -10,7 +10,6 @@ let app = new Vue({
       if (!this.nome == "") {
         this.toDoList.push({ text: this.nome, done: false });
       }
-
       this.nome = "";
     },
 
