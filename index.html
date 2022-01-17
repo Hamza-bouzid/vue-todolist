@@ -24,8 +24,8 @@
           <div class="row justify-content-center">
             <div class="col-12 todo-list">
               <h2 class="text-center">Todo List</h2>
-              <div class="todo" v-for="(elemento, indice) in toDoList" @click="isDone(indice)" :class="{fatto:elemento.done}">
-                <span>{{elemento.text}}</span>
+              <div class="todo" v-for="(elemento, indice) in toDoList"  :class="{fatto:elemento.done}">
+                <p @click="isDone(indice)">{{elemento.text}}</p>
                 <i class="far fa-trash-alt trash" @click="elimina(indice)"></i>
               </div>
             </div>
