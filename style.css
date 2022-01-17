@@ -3,3 +3,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  margin: 50px 0px;
+}
+
+.hb_inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.hb_inputs input {
+  margin-right: 10px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  border: 1px solid #3f3f3f;
+  color: #3f3f3f;
+}
+
+.hb_btn {
+  background-color: #80d32d;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 10px;
+}
+
+.todo-list {
+  background-color: #f5f6f7;
+  width: 900px;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+.todo {
+  border-bottom: 1px solid #d8d9da;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.todo:hover {
+  background-color: #fff;
+}
+
+.trash {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #000;
+}
+
+.trash:hover {
+  color: red;
+}
+
+.fatto {
+  text-decoration: line-through;
+  color: rgb(161, 161, 161);
+}
